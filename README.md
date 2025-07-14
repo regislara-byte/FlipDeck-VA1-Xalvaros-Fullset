@@ -1,125 +1,96 @@
-# 🃏 FlipDeck: VA-1 – Xalvaros
+# 🃏 FlipDeck: VA1-001 – Xalvaros
 
-**FlipDeck VA-1: Xalvaros** is an interactive, animated NFT-style card from the **Jaglotl WarCraft Kingdom**.  
-This is not a static image — this is a **living relic**: designed to flip, pulse, and speak lore.
+**FlipDeck VA1-001: Xalvaros** is an animated, holographic 1/1 NFT forged in the **Jaglotl WarCraft Kingdom**.  
+Designed to flip, emit lore, and echo across blockchains — this is **no static card**, it’s a **living relic**.
 
-> Powered by the **VAXINX Protocol™**, authored by **Regis Lara**, this flipcard experience fuses art, sound, and story into an immersive Web3 interface.
-
----
-
-## 🧿 OpenSea Metadata
-
-| Trait         | Value                                                                 |
-|--------------|------------------------------------------------------------------------|
-| **Size**     | 1350px x 1920px \| 300 DPI \| 3.25MB PNG–Front Card                    |
-| **Faction**  | Northern Core Abyssal                                                  |
-| **Class**    | Nulliforge Titan                                                       |
-| **Tier**     | Void–Abyssal                                                           |
-| **Role**     | Chaosfront Gatebreaker                                                 |
-| **FX**       | Plasma Flip Deck                                                       |
-| **Audio**    | VAXINX Protocol: Subvoid Loop `jwkbGM` & `thunderX`                  |
-| **MP4**      | VAXINX Protocol: VA1–Xalvaros                                          |
-| **Creator**  | VAXINX (Regis Lara)                                                    |
-| **Price**    | 0.077 ETH                                                              |
-| **Link**     | [FlipDeck–VA1-Xalvaros](https://regislara-byte.github.io/FlipDeck-VA1-Xalvaros-Fullset) |
-
----
-## 🔮 Features
-
-- 🔁 Auto-flip reveal + tap-to-flip interaction
-- ✨ Animated holographic front & lore-infused back
-- ⚡ Thunder FX & ambient BGM (dual audio: `jwkbgmusic.mp3` + `thunderX.mp3`)
-- 🔊 Flip sound effect on tap
-- 🌌 Plasma FX background with edge particle trails
-- 🧬 QR embed to OpenSea, IPFS, or metadata vault
-- 📜 Scroll-based lore + NFT metadata viewer
-- 📱 Fully responsive (mobile/desktop)
+> 🎴 Powered by the **VAXINX Protocol™**, created by **Regis Lara**, this interactive flipcard fuses art, lore, audio FX, and Web3 identity.
 
 ---
 
-## 🧩 File Overview
+## 🧿 NFT Metadata Summary
 
-| File                | Purpose                                 |
-|---------------------|------------------------------------------|
-| `index.html`        | Main interactive UI                     |
-| `va1_front.png`     | Card front (Xalvaros)                   |
-| `va1_back.png`      | Card back + lore scroll                 |
-| `flip.wav`          | Flip sound FX                           |
-| `jwkbgmusic.mp3`    | Ambient music track                     |
-| `thunderX.mp3`      | Thunder crackle FX                      |
-| `opensea_qr.png`    | QR code to OpenSea/metadata             |
-| `vxflipchat_footer.png` | Creator footer seal (UI embed)     |
-| `vxflipchat_lockicon.png` | Metadata/Unlock seal (UI embed)  |
-| `VA1-Xalvaros.mp4`  | Animated background video (autoplay)    |
-
----
-
-## 🚀 Deployment Guide
-
-1. Push contents to your GitHub repository  
-2. Enable **GitHub Pages** from `main / root`  
-3. Live at:  
-   `https://regislara-byte.github.io/FlipDeck-VA1-Xalvaros-Fullset/`
-
-4. (Optional) Pin to IPFS or link via smart contract metadata  
-5. Mint and list on OpenSea (0.077 ETH suggested 😏)
+| Field           | Data                                                                 |
+|----------------|----------------------------------------------------------------------|
+| **Name**       | VA1-001: Xalvaros – Abyss Void                                        |
+| **Faction**    | Abyss Void (Northern Core)                                            |
+| **Class**      | Hellfire Titan                                                        |
+| **Role**       | Nulliforge Breaker                                                    |
+| **Realm**      | Jaglotl WarCraft                                                      |
+| **Creator**    | VAXINX [Regis Lara]                                                   |
+| **License**    | Jaglotl Creator Protocol™                                             |
+| **Royalty**    | 10% (MetaMask: `0x5947712D13AaB3E6F4021Ff04F83881F778d3666`)          |
+| **Vault URL**  | [`View Full Metadata`](https://github.com/regislara-byte/VA1-Xalvaros-Fullset/blob/main/VA1-metadata.json) |
+| **Live Site**  | [`https://regislara-byte.github.io/FlipDeck--VA1-Xalvaros-Fullset/`](https://regislara-byte.github.io/FlipDeck--VA1-Xalvaros-Fullset/) |
+| **Suggested Price** | 0.077 ETH (Ethereum Mainnet preferred)                         |
 
 ---
 
-## 🛡️ VAXINX Creator Protocol™ – Verified Authorship
+## 🎨 FlipDeck UI Features
 
-- 👤 **Creator**: Regis Lara (VAXINX Protocol™)
-- 🛡️ **MetaMask ID**: `0x5947712D13AaB3E6F4021Ff04F83881F778d3666`
-- 💸 **PayPal**: [paypal.me/Regis9999](https://paypal.me/Regis9999)
-- 📧 **Email**: regislara@gmail.com
-- 🐦 **X / Twitter**: [@regislarace](https://twitter.com/regislarace)
-- 📸 **Instagram**: [@urLifenuggets](https://instagram.com/urLifenuggets)
-
-> License: FlipDeck is governed by the **Jaglotl Creator Protocol™**  
-> - 10% Creator Royalty  
-> - $100K Commercial Use Limit  
-> - Immutable, perpetual licensing  
-> - Legal Protection: [jaglotl.warcraft/voidlaw](https://jaglotl.warcraft/voidlaw)
+- 🔁 Holographic Flipcard (Animated MP4 + Dual View)
+- 🎼 Dual Audio: Ambient loop + Thunder FX (`jwkbgmusic` + `thunderX`)
+- 📜 QR-linked Metadata Viewer (OpenSea-ready)
+- 📱 Fully responsive layout (mobile + desktop)
+- 🔐 Vault Footer + Metadata Lock icon (auto-embedded)
+- 🔊 Flip sound FX (with tap interaction)
 
 ---
 
-## 🧿 Upcoming Legions – FlipDeck Series Preview
+## 📦 Key Assets
 
-> These 15+ FlipDeck Legions are in final summon state and follow the same interactive format:
-
-- **VA-2: Xyrrak** — Obsidian Halo variant  
-- **VA-3: Nyzzoth**  
-- **VA-4: Velkris**  
-- **VA-5: Vorr’Khul**  
-- **VA-6: Xa’lZirak**  
-- **VA-7: Erathis Nihil**  
-- **VA-8: Zhal’Gorath**  
-- **VA-9: Xa’lZygugul**  
-- **VA-10: Vhorzith**  
-- **VA-11: Dreamdire**  
-- **VA-12: Threxon**  
-- **VA-13: Kaelthos**  
-- **VA-14: Ozythar**  
-- **VA-15: Varzok Tenebris**  
-- **VA-16: Vaexorith**
-
-All will use the **FlipDeck Protocol**:  
-Holographic UI, audio FX, lore unlocks, and OpenSea-embedded metadata.
+| File                     | Description                           |
+|--------------------------|---------------------------------------|
+| `va1_front.png`          | NFT Front Visual                      |
+| `va1_back.png`           | NFT Lore Back Card                    |
+| `VA1-Xalvaros.mp4`       | FlipDeck Animated Background          |
+| `flip.wav`               | Flip Sound FX                         |
+| `jwkbgmusic.mp3`         | Ambient Loop                          |
+| `thunderX.mp3`           | Thunder Crackle FX                    |
+| `opensea_qr.png`         | QR Code to View NFT                   |
+| `vxflipchat_footer.png`  | Official Footer Signature             |
+| `vxflipchat_lockicon.png`| Metadata Lock + Vault Shield          |
+| `VA1-metadata.json`      | NFT Metadata (on-chain config)        |
 
 ---
 
-## 🧠 Vault Credits
-- Built by: **VAXINX (Regis Lara)**
-- Protected under: **Jaglotl Creator Protocol™**
-- Powered by: HTML5, JS, MP4, CSS animations
+## 🧠 Licensing & Protection
+
+**VAXINX Creator Protocol™** governs this NFT under immutable licensing:
+
+- ✅ 10% Creator Royalty
+- ✅ $100,000 Commercial Use Limit
+- ✅ Perpetual Authorship Enforcement
+- ✅ MetaMask: `0x5947712D13AaB3E6F4021Ff04F83881F778d3666`
+- ✅ Legal Clause: [`jaglotl.warcraft/voidlaw`](https://jaglotl.warcraft/voidlaw)
 
 ---
 
-## 🔗 Live Demo
+## 🔮 Upcoming FlipDeck Legions
 
-🔗 GitHub Pages:  
-[`https://regislara-byte.github.io/FlipDeck--VA1-Xalvaros/`](https://regislara-byte.github.io/FlipDeck--VA1-Xalvaros/)
+> These are in final forge prep — all 1/1, metadata-locked:
+
+- VA2 – Xyrrak: Obsidian Halo
+- VA3 – Nyzzoth
+- VA4 – Velkris
+- VA5 – Vorr’Khul
+- VA6 – Xa’lZirak
+- VA7 – Dreamdire
+- VA8 – Zhal’Gorath
+- VA9 – Xal’Zygugul
+- VA10 – Erathis Nihil
+
+…and beyond.
 
 ---
 
-🧠 *Engage the Forge. Flip the Future.*
+## 💠 Creator Info
+
+- 👤 **Regis Lara**  
+- 🧬 Protocol: **VAXINX™**  
+- 💸 [paypal.me/Regis9999](https://paypal.me/Regis9999)  
+- 🦊 MetaMask: `0x5947712D13AaB3E6F4021Ff04F83881F778d3666`  
+- 🔗 GitHub: [`@regislara-byte`](https://github.com/regislara-byte)
+
+---
+
+🧠 *Engage the Vault. Flip the Chain. Forge the Infinite.*

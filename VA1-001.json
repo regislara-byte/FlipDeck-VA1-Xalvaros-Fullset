@@ -1,0 +1,17 @@
+{
+  "name": "VA1-001: Xalvaros – Abyss Void",
+  "description": "Hellfire • Demonic • Cosmic FlipDeck.\nForged in Jaglotl WarCraft Kingdom.\nCreator Protocol™ – VAXINX (Regis Lara)",
+  "image": "ipfs://Qm.../Xalvaros-Front.png",
+  "animation_url": "ipfs://Qm.../Xalvaros-Flip.html",
+  "external_url": "https://github.com/regislara-byte/VA1-Xalvaros-Fullset",
+  "attributes": [
+    { "trait_type": "Faction", "value": "Abyss Void" },
+    { "trait_type": "Class", "value": "Hellfire Titan" },
+    { "trait_type": "Role", "value": "Nulliforge Breaker" },
+    { "trait_type": "Realm", "value": "Jaglotl WarCraft" },
+    { "trait_type": "Creator", "value": "VAXINX [Regis Lara]" }
+  ],
+  "license": "Jaglotl Creator Protocol™",
+  "royalty_percentage": "10",
+  "royalty_wallet": "0x5947712D13AaB3E6F4021Ff04F83881F778d3666"
+}
