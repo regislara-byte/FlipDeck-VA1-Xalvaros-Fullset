@@ -1,63 +1,214 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FlipDeck VA1 – Xalvaros Fullset</title>
-
-  <!-- Open Graph / Twitter Preview -->
-  <meta property="og:title" content="FlipDeck: VA1-Xalvaros Fullset" />
-  <meta property="og:description" content="An immersive card flip experience forged under the VAXINX Protocol™ – Unleash the Abyss Void." />
-  <meta property="og:image" content="https://regislara-byte.github.io/FlipDeck--VA1-Xalvaros-Fullset/va1_preview.jpg" />
-  <meta property="og:url" content="https://regislara-byte.github.io/FlipDeck--VA1-Xalvaros-Fullset/" />
-  <meta name="twitter:card" content="summary_large_image" />
-
-  <!-- 🔥 Open Graph Meta Tags (Facebook, Discord, etc) -->
-  <meta property="og:title" content="FlipDeck VA1 – Xalvaros Fullset" />
-  <meta property="og:description" content="Jaglotl WarCraft | Xalvaros: Abyss Void – HELLFIRE • DEMONIC • COSMIC • NFT Protocol Drop | VAXINX Creator" />
-  <meta property="og:image" content="https://regislara-byte.github.io/FlipDeck--VA1-Xalvaros-Fullset/va1_preview.jpg" />
-  <meta property="og:url" content="https://regislara-byte.github.io/FlipDeck--VA1-Xalvaros-Fullset/" />
-  <meta property="og:type" content="website" />
-
-  <!-- 🐦 Twitter Card Meta -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="FlipDeck VA1 – Xalvaros Fullset" />
-  <meta name="twitter:description" content="Xalvaros rises. Explore the Fullset. Enforced by VAXINX Protocol™." />
-  <meta name="twitter:image" content="https://regislara-byte.github.io/FlipDeck--VA1-Xalvaros-Fullset/va1_preview.jpg" />
-  <meta name="twitter:creator" content="@regislarace" />
-
+  <meta charset="UTF-8">
+  <title>VA-1: Xalvaros | FlipDeck Scroll</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      background: #000;
-      color: #fff;
-      font-family: 'Segoe UI', sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
+
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -0.3;
+  animation: lightningFlash 8s infinite;
+  pointer-events: none;
+}
+
+      background: #1a1a1a;
+      color: #ff4d00;
+      font-family: 'Arial', sans-serif;
       text-align: center;
+      overflow: hidden;
+      cursor: none;
+      margin: 0;
+      position: relative;
     }
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
+
+    #background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;           /* Fills screen fully */
+  object-position: center 15%; /* Adjust framing for Xalvaros body */
+  z-index: -1;
+  opacity: 0.5;
+}
+
+
+    .flip-card {
+      width: 320px;
+      height: 480px;
+      margin: 60px auto;
+      perspective: 1200px;
     }
-    p {
-      font-size: 1.2rem;
-      color: #999;
+
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transition: transform 0.8s;
+      transform-style: preserve-3d;
     }
-    img {
-      margin-top: 2rem;
-      max-width: 90%;
-      border-radius: 12px;
-      box-shadow: 0 0 40px rgba(255, 0, 0, 0.3);
+
+    .flip-card:hover .flip-card-inner,
+    .flip-card.flipped .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+
+    .flip-card-front, .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: 10px;
+      box-shadow: 0 0 30px rgba(255, 77, 0, 0.7);
+    }
+
+    .flip-card-front {
+      animation: pulseGlow 3s infinite ease-in-out;
+    }
+
+    .flip-card-back {
+      transform: rotateY(180deg);
+    }
+
+    .flip-card-front img, .flip-card-back img {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+    }
+
+    @keyframes pulseGlow {
+      0% { box-shadow: 0 0 20px rgba(255,77,0,0.4); }
+      50% { box-shadow: 0 0 40px rgba(255,77,0,1); }
+      100% { box-shadow: 0 0 20px rgba(255,77,0,0.4); }
+    }
+
+    @keyframes lightningFlash {
+       0%, 97%, 100% { background: rgba(0, 0, 0, 0); }
+       98% { background: rgba(255, 255, 255, 0.2); }
+       99% { background: rgba(255, 255, 255, 0.1); }
+    }
+
+    .controls {
+      margin-top: 20px;
+    }
+
+    button {
+      background-color: #220000;
+      color: #ffcc00;
+      border: 1px solid #ff9900;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .custom-cursor {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background: radial-gradient(circle, #ff4d00, transparent);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 1000;
+    }
+
+    .smoke-particle {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background: radial-gradient(circle, rgba(255, 77, 0, 0.8), rgba(0, 0, 0, 0));
+      border-radius: 50%;
+      pointer-events: none;
+      animation: smokeFade 1s ease-out forwards;
+    }
+
+    @keyframes smokeFade {
+      0% { opacity: 0.8; transform: scale(1) translate(0, 0); }
+      100% { opacity: 0; transform: scale(3) translate(10px, -20px); }
+    }
+
+    h1, h2 {
+      text-shadow: 0 0 10px #ff4d00;
+      margin-top: 10px;
     }
   </style>
 </head>
 <body>
-  <h1>⚡ FlipDeck VA1 – Xalvaros Fullset</h1>
-  <p>Deployed by VAXINX Creator Protocol™ | Explore the Immersive Card Drop</p>
-  <img src="va1_preview.png" alt="Xalvaros Social Preview" />
+
+  <video id="background-video" autoplay loop muted>
+    <source src="VA1-Xalvaros.mp4" type="video/mp4">
+    Your browser does not support the video element.
+  </video>
+
+  <h1>⟦ Codex Ex Abyssum ⟧</h1>
+  <h2>VA-1: Chaosfront Gatebreaker</h2>
+
+  <div class="flip-card" onclick="this.classList.toggle('flipped')">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="va1_front.png" alt="VA-1 Front">
+      </div>
+      <div class="flip-card-back">
+        <img src="va1_back.png" alt="VA-1 Back">
+      </div>
+    </div>
+  </div>
+
+  
+<audio id="bgMusic" loop>
+  <source src="jwkbgmusic.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="thunderFX" loop>
+  <source src="thunderX.mp3" type="audio/mpeg">
+</audio>
+
+
+  <div style="font-size: 0.7em; color: #ffaa88; margin-top: 20px;">
+    Vault Registered via VAXINX Creator Protocol™ | 2025© Jaglotl WarCraft Kingdom
+    <br>
+    <img src="opensea_qr.png" alt="Vault QR" style="width: 70px; margin-top: 6px;">
+  </div>
+
+<script>
+  const bgMusic = document.getElementById('bgMusic');
+  const thunderFX = document.getElementById('thunderFX');
+
+  // 🔊 Autoplay both on first click
+  document.body.addEventListener('click', () => {
+    bgMusic.play().catch(() => {});
+    thunderFX.volume = 0.35;  // softer thunder crackle
+    thunderFX.play().catch(() => {});
+  }, { once: true });
+
+  // 💨 Custom Cursor + Smoke Trail
+  const body = document.body;
+  const cursor = document.createElement('div');
+  cursor.className = 'custom-cursor';
+  body.appendChild(cursor);
+
+  document.addEventListener('mousemove', (e) => {
+    cursor.style.left = `${e.clientX - 10}px`;
+    cursor.style.top = `${e.clientY - 10}px`;
+
+    const particle = document.createElement('div');
+    particle.className = 'smoke-particle';
+    particle.style.left = `${e.clientX}px`;
+    particle.style.top = `${e.clientY}px`;
+    body.appendChild(particle);
+    setTimeout(() => particle.remove(), 1000);
+  });
+</script>
+
 </body>
 </html>
