@@ -1,0 +1,45 @@
+{
+  "name": "VA-1: Xalvaros \u2013 Chaosfront Gatebreaker",
+  "description": "Codex Ex Abyssum \u2014 FlipDeck VA-1: Xalvaros, Gatebreaker of the Chaosfront. Immersive NFT set w/ flip UI, music FX, QR vault & creator seal.",
+  "image": "https://regislara-byte.github.io/FlipDeck-VA1-Xalvaros-Fullset/va1_front.png",
+  "external_url": "https://regislara-byte.github.io/FlipDeck-VA1-Xalvaros-Fullset/",
+  "animation_url": "https://regislara-byte.github.io/FlipDeck-VA1-Xalvaros-Fullset/VA1-Xalvaros.mp4",
+  "attributes": [
+    {
+      "trait_type": "Faction",
+      "value": "Northern Core Abyssal"
+    },
+    {
+      "trait_type": "Class",
+      "value": "Nulliforge Titan"
+    },
+    {
+      "trait_type": "Tier",
+      "value": "Void\u2013Abyssal"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Chaosfront Gatebreaker"
+    },
+    {
+      "trait_type": "FX",
+      "value": "Plasma Flip Deck"
+    },
+    {
+      "trait_type": "Audio",
+      "value": "VAXINX Protocol: $jwkbGM$ & thunderX"
+    },
+    {
+      "trait_type": "MP4",
+      "value": "VA1-Xalvaros"
+    },
+    {
+      "trait_type": "Creator",
+      "value": "VAXINX (Regis Lara)"
+    },
+    {
+      "trait_type": "Price",
+      "value": "0.077 ETH"
+    }
+  ]
+}
